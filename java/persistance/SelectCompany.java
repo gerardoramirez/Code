@@ -134,7 +134,7 @@ public class SelectCompany
     }
 
     public static void main(String args[]) {
-    	getCompany("Ricoh");
+    	getCompany("");
     }
 }
 //jdbc:mysql://localhost:3306/javabase
