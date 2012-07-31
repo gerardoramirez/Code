@@ -18,10 +18,10 @@ public class DeleteSelectedCompany {
 		 System.out.println("[DeleteSelectedRange] executing removal of newly assigned range..."); //NOI18N
 		 boolean success = false;
 		 
-	     String server = ResourceBundle.getBundle("com.ricoh.ridp.persistance.database").getString("server"); //NOI18N
-	     String database = ResourceBundle.getBundle("com.ricoh.ridp.persistance.database").getString("database.name"); //NOI18N
-	     String username = ResourceBundle.getBundle("com.ricoh.ridp.persistance.database").getString("username"); //NOI18N
-	     String password = ResourceBundle.getBundle("com.ricoh.ridp.persistance.database").getString("password"); //NOI18N
+	     String server = ResourceBundle.getBundle("persistance.database").getString("server"); //NOI18N
+	     String database = ResourceBundle.getBundle("persistance.database").getString("database.name"); //NOI18N
+	     String username = ResourceBundle.getBundle("persistance.database").getString("username"); //NOI18N
+	     String password = ResourceBundle.getBundle("persistance.database").getString("password"); //NOI18N
 	    
 	     DeleteBuilder deleteRange = new DeleteBuilder();
 	     
