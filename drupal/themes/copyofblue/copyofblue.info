@@ -1,0 +1,29 @@
+; $Id: copyofblue.info,v 1.1 2011/03/8 
+name = copyofblue 
+description = Two column multi region theme
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = style.css
+stylesheets[all][] = ribbon.css
+stylesheets[all][] = aggregator.css
+stylesheets[all][] = local.css
+
+regions[sidebar] = Sidebar
+regions[banner] = Banner
+regions[headline] = Headline
+regions[featured] = Featured
+regions[middle] = Middle
+regions[content_top] = Content Top
+regions[content_bottom] = Content Bottom
+regions[bottom] = Bottom
+regions[footer_left] = Footer Left
+regions[footer_middle] = Footer Middle
+regions[footer_right] = Footer Right
+regions[footer_end] = Footer End
+
+; Information added by drupal.org packaging script on 2009-11-08
+version = "6.x-1.1"
+core = "6.x"
+datestamp = "1257698707"
+

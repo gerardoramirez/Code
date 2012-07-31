@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" android:summary="@string/settingsSummary" 
+  android:title="@string/settingTitle" android:key="Settings">
+    
+    <EditTextPreference android:title="@string/titleSettingOne" 
+    android:summary="@string/summarySettingOne" android:key="settingOne"></EditTextPreference>
+    
+    <EditTextPreference android:title="@string/titleSettingTwo" 
+    android:summary="@string/summarySettingTwo" android:key="settingTwo"></EditTextPreference>
+    
+    <EditTextPreference android:title="@string/titleSettingThree" 
+    android:summary="@string/summarySettingThree" android:key="settingThree"></EditTextPreference>
+    
+    <EditTextPreference android:title="@string/titleSettingFour" 
+    android:summary="@string/summarySettingFour" android:key="settingFour"></EditTextPreference>
+</PreferenceScreen>

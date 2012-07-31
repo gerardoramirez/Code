@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="tasks">Tasks</string>
+    <string name="add_task">Add Task</string>
+    <string name="app_name">Lala\'s Task Manager</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="discard">Discard</string>
+    <string name="unsaved_changes_message">Would you like to add this task?</string>
+    <string name="unsaved_changes_title">Unsaved Changes</string>
+    <string name="oops_title">Oops</string>
+    <string name="no_tasks">No tasks</string>
+	<string name="empty_text_message">Nothing was entered. Try again.</string>
+	<string name="remove_confirm_message">Are you sure?</string>
+	<string name="remove_confirm_title">Removing completed tasks cannot be restored.</string>
+	<string name="ok">OK</string>
+	<string name="flush_completed">Remove Completed</string>
+	<string name="add_location_to_task">Add Location To Task</string>
+	<string name="map_this_address">Map This Address</string>
+	<string name="use_this_location">Use this location</string>
+	<string name="edit">Edit</string>
+	<string name="edit_location_to_task">Edit Location To Task</string>
+</resources>

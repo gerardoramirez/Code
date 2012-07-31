@@ -1,0 +1,170 @@
+/*block-user-0 contains all graphics, login, join, lost?*/
+#content #right-ear #block-user-0 {
+float:left;/*Make it float so the input forms can stay inline*/
+min-width:290px
+}
+
+/*Hide the form label to not destroy the layout*/
+#content #right-ear .form-item label {
+display:none
+}
+
+/*Reset all elements to avoid problem*/
+#content #right-ear #user-login-form ul,#right-ear .form-button,.form-submit,#user-login-form,#right-ear #user-login-form ul li,#right-ear #user-login-form {
+padding:0;
+margin:0
+}
+
+/*Make each input form stays inline*/
+#content #right-ear #user-login-form ul li {
+background:none;
+float:left
+}
+
+/*We need to add a CSS sprite to have a fast rendering as one image*/
+#content #right-ear #user-login-form .form-text,#right-ear .block-user .form-submit,#right-ear .block-user .item-list ul li.first a,#right-ear .block-user .item-list ul li.last a {
+display:block;
+float:left;
+cursor:pointer;
+background:transparent url(images/sprites.png) no-repeat;
+text-indent:-5000px;/*Hide any text, let the image alone*/
+border:0;
+height:21px;
+margin-right:5px
+}
+
+/*The sprite is set, now we only need to set each position of the elements*/
+#content #right-ear .block-user .form-submit {
+background-position:left top;
+width:51px
+}
+
+/*We don't have long space, we split the inline login forms into two chunks here*/
+#content #right-ear .block-user .item-list {
+margin-top:10px;
+clear:both
+}
+
+/*This part is an override to create an account*/
+#content #right-ear .block-user .item-list ul li.first a {
+background-position:0 -22px;
+width:43px
+}
+
+/*Request password overriden*/
+#content #right-ear .block-user .item-list ul li.last a {
+background-position:0 -46px;
+width:51px;
+margin-left:69px
+}
+
+/*Background image is also given to text input*/
+#content #right-ear #user-login-form .form-text {
+background-position:0 -69px;
+width:102px;
+cursor:text;
+text-indent:0;
+padding:3px 5px 0;
+height:19px;
+color:#ccc
+}
+
+/*block-user-0 contains all graphics, login, join, lost?*/
+#right-ear .block-user-0 {
+float:left;/*Make it float so the input forms can stay inline*/
+min-width:290px
+}
+
+/*Hide the form label to not destroy the layout*/
+#right-ear .form-item label {
+display:none
+}
+
+/*Reset all elements to avoid problem*/
+#right-ear #user-login-form ul,#right-ear .form-button,.form-submit,#user-login-form,#right-ear #user-login-form ul li,#right-ear #user-login-form {
+padding:0;
+margin:0
+}
+
+/*Make each input form stays inline*/
+#right-ear #user-login-form ul li {
+background:none;
+float:left
+}
+
+/*We need to add a CSS sprite to have a fast rendering as one image*/
+#right-ear #user-login-form .form-text,#right-ear .block-user .form-submit,#right-ear .block-user .item-list ul li.first a,#right-ear .block-user .item-list ul li.last a {
+display:block;
+float:left;
+cursor:pointer;
+background:transparent url(images/sprites.png) no-repeat;
+text-indent:-5000px;/*Hide any text, let the image alone*/
+border:0;
+height:21px;
+margin-right:5px
+}
+
+/*The sprite is set, now we only need to set each position of the elements*/
+#right-ear .block-user .form-submit {
+background-position:left top;
+width:51px
+}
+
+/*We don't have long space, we split the inline login forms into two chunks here*/
+#right-ear .block-user .item-list {
+margin-top:10px;
+clear:both
+}
+
+/*This part is an override to create an account*/
+#right-ear .block-user .item-list ul li.first a {
+background-position:0 -22px;
+width:43px
+}
+
+/*Request password overriden*/
+#right-ear .block-user .item-list ul li.last a {
+background-position:0 -46px;
+width:51px;
+margin-left:69px
+}
+
+/*Background image is also given to text input*/
+#right-ear #user-login-form .form-text {
+background-position:0 -69px;
+width:102px;
+cursor:text;
+text-indent:0;
+padding:3px 5px 0;
+height:19px;
+color:#ccc
+}
+/* Our on-off button is given the same image*/
+a.login-toggle,a.login-toggle-close {
+background:transparent url(/sites/all/themes/arthemia/images/sprites.png) no-repeat;
+text-indent:-8000px;
+position:absolute;
+right:0;
+top:0;
+height:80px;
+overflow:hidden
+}
+
+/*Now place each to match the actual image position*/
+a.login-toggle {
+background-position:-280px top;
+width:40px
+}
+
+a.login-toggle-close {
+right:298px;
+background-position:-185px top;
+width:26px
+}
+
+/*if you have trouble with your theme, you may also need to reset system.css since we have narrow space*/
+#right-ear .form-item,#right-ear .block {
+margin-bottom:0;
+margin-top:0;
+padding-bottom:0
+}

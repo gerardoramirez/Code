@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Price_it_RiteActivity!</string>
+    <string name="app_name">Price_it_Rite</string>
+    <string name="cost_title">Cost</string>
+    <string name="cost_indication">Enter the value of the item being sold</string>
+    <string name="profit_title">Profit</string>
+    <string name="profit_indication">Enter your desired markup</string>
+    <color name="red">#FF0000</color>
+    
+    <!-- Preferences strings -->
+    <string name="titlePrefs">Settings</string>
+    <string name="settingsSummary">Customize Percentage Button Values To Your Desired Choice</string>
+	<string name="titleSettingOne">Percentage 1</string>
+	<string name="titleSettingTwo">Percentage 2</string>
+	<string name="titleSettingThree">Percentage 3</string>
+	<string name="titleSettingFour">Percentage 4</string>
+	<string name="summarySettingOne">Customize value</string>
+	<string name="summarySettingTwo">Customize value</string>
+	<string name="summarySettingThree">Customize value</string>
+	<string name="summarySettingFour">Customize value</string>
+	<string name="settingTitle">Settings</string>
+	
+</resources>
